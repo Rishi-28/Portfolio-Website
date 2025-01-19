@@ -1,0 +1,26 @@
+.skill-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-card:hover {
+  transform: translateY(-2px);
+}
+
+.skill-card:hover svg {
+  filter: brightness(1.2);
+}
+
+.skill-card:hover span {
+  font-weight: 600;
+}
+
+/* Ensure text is readable in both light and dark modes */
+.dark .skill-card {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dark .skill-card:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
